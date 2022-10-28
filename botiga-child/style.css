@@ -1,0 +1,81 @@
+/*
+Theme Name: Botiga Child
+Theme URI: https://athemes.com/theme/botiga/
+Template: botiga
+Author: Michele Andersen
+Author URI: https://athemes.com
+Description: Launch your store with Botiga. A beautiful theme that is optimized for the block editor. We proudly introduce Botiga, with a modern and clean design that will effortlessly match your brand. Botiga has been developed from the ground up with clean code for optimal performance. You’ll get a mobile-optimized theme that looks and works great on any device and comes with plenty of customization options as well. Discover the theme that will transform your online business.
+Tags: e-commerce,custom-menu,custom-logo,grid-layout,featured-images,right-sidebar,custom-colors,editor-style,theme-options,threaded-comments,translation-ready,blog,one-column,two-columns
+Version: 1.2.1.1665131818
+Updated: 2022-10-07 08:36:58
+
+*/
+
+.woocommerce-page-header {
+   background: #e5e3e0;
+}
+
+.bhfb-main_header_row{
+   background: #e5e3e0;
+   color: #c0b283;
+} 
+
+.bhfb-column {
+float: right;
+}  
+
+.home {
+   min-height: 550px;
+   background-size: auto;
+   background-image: url("img/17718_3.jpeg");
+   color: black;
+}
+
+.bhfb-below_footer_row {
+   margin-top: 433px;
+}
+
+button, 
+.add_to_cart_button, .wc-backward, 
+.wc-proceed-to-checkout, .checkout-button.button  {
+   background-color: transparent !important;
+   color: black !important;
+   border: 1px solid black !important;
+}
+.page-numbers.current:hover, 
+.add_to_cart_button:hover, .wc-backward:hover, .wc-proceed-to-checkout:hover,
+.checkout-button.button:hover{
+   background-color: #c0b283c9 !important;
+}
+.page-numbers.current {
+   background-color: #c0b283c9 !important;
+}
+.page-numbers:hover {
+   background-color: transparent !important;
+}
+
+button:hover {
+   background-color: #c0b283c9 !important; 
+}
+
+.bhfb.bhfb-mobile_offcanvas.botiga-offcanvas-menu.toggled {
+   background-color: #e5e3e0;
+}
+
+ .count-number {
+   background-color: #c0b283 !important;
+   border: none !important;
+ }     
+ 
+ .bhfb-cols-3.bhfb-column-3{
+   background-color: #e5e3e0;
+   display: flex;
+   flex-direction: row-reverse;
+   height: 24px;
+   padding-right:34px ;
+ }
+
+.flex-control-nav.flex-control-thumbs{
+height: 200px;
+}
+          
